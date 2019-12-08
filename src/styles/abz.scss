@@ -1,0 +1,21 @@
+@import "_fonts";
+
+body {
+  margin: 0;
+  background-image: url(../assets/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 1306px;
+  padding: 105px 20px 0px 20px;
+  margin: 0 auto;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
