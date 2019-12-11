@@ -7,7 +7,7 @@
           :key="i"
           class="related-new"
         >
-          <img class="img-responsive" :src="news.image" alt="img">
+          <img class="img-responsive" src="../assets/related_news.png" alt="img">
           <div class="description">
             <h2>{{news.title}}</h2>
             <p>{{news.description}}</p>
@@ -75,7 +75,6 @@ export default {
     width: 100%;
   }
   .description {
-    text-shadow: 0px 22px 40px rgba(36, 35, 51, 0.45);
     background-color: #242333;
     opacity: .9;
     padding: 23px 69px 29px 27px;

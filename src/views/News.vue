@@ -28,7 +28,7 @@
           :key="i"
         >
           <div class="swiper-content">
-            <img :src="item.image" alt="user">
+            <img src="../assets/slide-img.png" alt="slide">
             <div class="title">
               <h2>{{item.title}}</h2>
               <p>{{item.date}}</p>
@@ -109,7 +109,7 @@
                 class="comment"
               >
                 <div class="user">
-                  <img :src="comment.image" alt="user">
+                  <img src="../assets/user-comment.png" alt="user">
                 </div>
                 <div class="description">
                   <h2>{{comment.name}}<span>{{comment.date}}</span></h2>
